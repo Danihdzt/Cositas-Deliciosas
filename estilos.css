@@ -1,0 +1,75 @@
+footer{
+    background-color: rgb(255, 220, 239);
+    padding: 15px;
+}
+.ft{
+    text-align: center;
+}
+p{
+    font-size: 18px;
+    font-family: segoe print;
+    text-align: justify;
+}
+.tx{
+    font-size: 18px;
+    font-family: segoe print;
+}
+.txn{
+    font-size: 23px;
+    font-family: segoe print;
+    font-weight: 100;
+}
+.txnt{
+    font-size: 20px;
+    font-family: segoe print;
+    font-weight: 100;
+}
+.txnn{
+    font-size: 30px;
+    font-family: segoe print;
+    font-weight: 100;
+}
+.tnn{
+    font-size: 15px;
+    font-family: segoe print;
+    font-weight: 100;
+    text-align: justify;
+}
+.fi{
+    background-image: url(multimedia/fondo.jpg);
+}
+.txtn{
+    font-size: 18px;
+    font-family: segoe print;
+    font-weight: 100;
+}
+.c1{
+    padding-bottom: 50px;
+}
+.c2{
+    margin-bottom: 50px;
+}
+.c3{
+    padding: 50px;
+    background-image: url(multimedia/fondo.jpg);
+}
+.pt{
+    background-color: rgb(255, 220, 239);
+}
+.logo{
+    width: 40px;
+    height: 50px;
+    margin: 15px;
+}
+.imgg{
+    width: 200px;
+    height: 230px;
+    margin-top: 15px;
+    margin-left: 40px;
+}
+.cd{
+    background-color: rgb(218, 174, 250);
+}
+.error {
+    color: red;
+}

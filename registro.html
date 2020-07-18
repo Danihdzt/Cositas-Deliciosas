@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<body>
+  <header class="pt">
+    <nav class="navbar navbar-expand-lg navbar-transparente bg-transparente">
+      <a>
+        <img class="logo" src="Multimedia/Grupo-388.png" alt="logo">
+      </a>
+      <a class="txn">Cositas Deliciosas</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Pagina Principal <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.facebook.com/cabellomagico.colmed.5" target="blank">Facebook</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.instagram.com/cabellomagico.colmed/" target="blank">Instagram</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="http://api.whatsapp.com/send?phone=573023195718" target="blank">Whatsapp</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Productos
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="productoscapilares.html">Productos Capilares</a>
+              <a class="dropdown-item" href="productoscorporales.html">Productos Coporales</a>
+              <a class="dropdown-item" href="kits.html">Kits</a>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="c3">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-6">
+            <p aling="justify">En el presente documento se establece la Política de Tratamiento de Datos Personales, 
+              en cumplimiento de las disposiciones de la Ley 1581 de 2012 y del Decreto 1377 de 2013, disposiciones que 
+              establecen y describen los mecanismos por medio de los cuales se debe garantizar el manejo adecuado y conforme 
+              a derecho, de los datos personales tratados, los cuales se encuentran en sus bases de datos, esto, con el fin de 
+              garantizarle a los titulares de los mismos un adecuado ejercicio de su derecho al Hábeas Data.
+            </p>
+          </div>
+          <div class="col-12 col-md-6">
+            <h3 class="txn">Formulario de registro</h3>
+            <form class="needs-validation" novalidate>
+              <div class="form-row">
+                <div class="col-md-4 mb-3">
+                  <label for="nombreUsuario">Nombre</label>
+                  <input type="text" class="form-control" id="nombreUsuario" value required>
+                  <small id="ayudaNombre" class="form-text"></small>
+                </div>
+                <div class="col-md-4 mb-3">
+                  <label for="apellidosUsuario">Apellidos</label>
+                  <input type="text" class="form-control" id="apellidosUsuario" value required>
+                  <small id="ayudaApellido" class="form-text"></small>
+                </div>
+                <div class="col-md-4 mb-3">
+                  <label for="correoUsuario">Correo</label>
+                  <div class="input-group">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text" id="inputGroupPrepend">@</span> 
+                    </div>
+                    <input type="text" class="form-control" id="correoUsuario" value  aria-describedby="inputGroupPrepend" required>
+                    <small id="ayudaCorreo" class="form-text"></small>
+                  </div>
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="col-md-5 mb-3">
+                  <label for="departamentoUsuario">Departamento</label>
+                  <select type="text" class="form-control" id="departamentoUsuario" required>
+                    <option selected disabled value="">Selecciona...</option>
+                    <option>Antioquía</option>
+                    <option>Atlántico</option>
+                    <option>Bolívar</option>
+                    <option>Cundinamarca</option>
+                    <option>Valle del Cauca</option>
+                  </select>
+                  <small id="ayudaDepartamento" class="form-text"></small>
+                </div>
+                <div class="col-md-4 mb-3">
+                  <label for="ciudadUsuario">Ciudad</label>
+                  <select type="text" class="form-control" id="ciudadUsuario" required>
+                    <option selected disabled value="">Selecciona...</option>
+                    <option>Barranquilla</option>
+                    <option>Bogotá</option>
+                    <option>Cali</option>
+                    <option>Cartagena de Indias</option>
+                    <option>Medellín</option>
+                  </select>
+                  <small id="ayudaCiudad" class="form-text"></small>
+                </div>
+                <div class="col-md-3 mb-3">
+                  <label for="telefonoUsuario">Teléfono</label>
+                  <input type="number" class="form-control" id="telefonoUsuario" value required>
+                  <small id="ayudaTelefono" class="form-number"></small>
+                </div>
+              </div>
+                <div class="form-group">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+                  <label class="form-check-label" for="invalidCheck2">
+                  Acepta los términos y condiciones
+                  </label>
+                </div>
+              </div>
+              <button class="btn btn-primary" type="submit" id="btnRegistro" >Registrarme</button>
+            </form>
+          </div>
+        </div>
+      </div>      
+    </section>
+  </main>
+  <footer>
+      <p class="ft">Daniela Hernández Torres &#9883;</p>
+      <p class="ft">danielita.627@hotmail.com &#9993;</p>
+      <p class="ft">3136499778 &#9990;</p>
+      <p class="ft">Medellín-Colombia</p>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <script src="controladorRg.js"></script>
+</body>
+</html>
